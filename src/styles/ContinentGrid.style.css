@@ -1,0 +1,5 @@
+.ContinentsGrid-container {
+    background-color: #dde7e9;
+    display: flex;
+    flex-wrap: wrap;
+}

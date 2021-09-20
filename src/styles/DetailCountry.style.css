@@ -1,0 +1,35 @@
+.DetailCountry-container {
+  padding: 20px;
+  background-color: #dde7e9;
+  border-radius: 15px;
+  margin: 30px;
+  height: 400px;
+  width: 200px;
+  overflow: hidden;
+  background: #dde7e9;
+  box-shadow: 5px 5px 10px #b7c0c1, -5px -5px 10px #ffffff;
+}
+.DetailCountry-container img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.DetailCountry-container--country-title {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(61, 61, 61);
+}
+.DetailCountry-container--capital-title {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(92, 92, 92);
+}
+.DetailCountry-container .weather-cantainer {
+    text-align: center;
+}
+.DetailCountry-container .DetailCountry-container--temp {
+    color: rgb(92, 92, 92);
+}

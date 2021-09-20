@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
+import "../styles/Search.style.css";
 
 const Search = () => {
 
@@ -20,7 +21,6 @@ const Search = () => {
         <button onClick={() => history.push(`/detail/${inputState}`)}>
           GO
         </button>
-        <p>El valor del input es: {inputState}</p>
     </div>
   )
 };

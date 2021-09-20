@@ -1,0 +1,30 @@
+.Search-container {
+    background-color: #dde7e9;
+    margin-left: 10px;
+}
+.Search-container input {
+    border: none;
+    background-color: #dde7e9;
+    color: rgb(92, 92, 92);
+    font-weight: 600;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background: #dde7e9;
+    box-shadow: inset 5px 5px 10px #b7c0c1, inset -5px -5px 10px #ffffff;
+    outline: none;
+}
+.Search-container button {
+    border: none;
+    border-radius: 50%;
+    background: #dde7e9;
+    box-shadow: 5px 5px 10px #b7c0c1, -5px -5px 10px #ffffff;
+
+    color: gray;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+}

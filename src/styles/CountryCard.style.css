@@ -1,0 +1,40 @@
+.CountryCard-container {
+  padding: 15px;
+  background-color: #dde7e9;
+  border-radius: 15px;
+  margin: 30px;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  background: #dde7e9;
+  box-shadow: 5px 5px 10px #b7c0c1, -5px -5px 10px #ffffff;
+}
+
+.CountryCard-container img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.CountryCard-container .card-title {
+  font-size: 16px;
+  margin-top: 10px;
+  color: rgb(61, 61, 61);
+}
+.CountryCard-container .card-subtitle {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: rgb(92, 92, 92);
+}
+.CountryCard-container .link-container {
+  display: flex;
+  justify-content: center;
+}
+.CountryCard-container a {
+  text-align: center;
+  color: rgb(32, 193, 199);
+  font-weight: 400;
+  margin-top: 8px;
+  text-decoration: none;
+}

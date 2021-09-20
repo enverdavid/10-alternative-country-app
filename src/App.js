@@ -1,6 +1,7 @@
 import React from "react";
 import { Search } from "./components/Search";
 import { ContinentsGrid } from "./components/ContinentsGrid";
+import { ContinentsMenu } from "./components/ContinentsMenu";
 import { DetailCountry } from "./components/DetailCountry";
 import "./App.style.css";
 import {
@@ -12,12 +13,15 @@ import {
 function App() {
   return (
     <Router>
-      <div className="App">
         <Search />
-            <Switch>
-                <Route path="/detail/:id" component={DetailCountry} />
-                <Route path="/continents" component={ContinentsGrid} />
-            </Switch>
+      <div className="App">
+        <ContinentsMenu />
+        <div>
+              <Switch>
+                  <Route path="/detail/:id" component={DetailCountry} />
+                  <Route path="/continent/:id" component={ContinentsGrid} />
+              </Switch>
+        </div>
       </div>
     </Router>
   );

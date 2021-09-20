@@ -1,0 +1,35 @@
+.ContinentsMenu-container {
+  background-color: #dde7e9;
+  width: 40%;
+  font-family: sans-serif;
+}
+.ContinentsMenu-container a {
+  padding: 25px;
+  color: gray;
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin: 30px;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 13px;
+  background: #dde7e9;
+  box-shadow: 5px 5px 10px #b7c0c1, -5px -5px 10px #ffffff;
+}
+.ContinentsMenu-container a.currentContinent {
+  padding: 25px;
+  color: rgb(32, 193, 199);
+  font-weight: 600;
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin: 30px;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+
+  border-radius: 13px;
+  background: #dde7e9;
+  box-shadow: inset 5px 5px 10px #b7c0c1, inset -5px -5px 10px #ffffff;
+}
